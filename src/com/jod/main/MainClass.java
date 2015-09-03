@@ -7,7 +7,7 @@ public class MainClass {
 
 	public static void main(String[] args){
 		
-		ServiceBase service = new FirstService();
+		ServiceBase<?> service = new FirstService();
 		service.execute();
 	}
 }
