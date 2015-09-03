@@ -1,6 +1,6 @@
 package com.jod.main.service;
 
-public interface ServiceBase {
+public interface ServiceBase<T> {
 
-	void execute();
-}
+	T execute();
+} 

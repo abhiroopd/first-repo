@@ -1,9 +1,10 @@
 package com.jod.main.service;
 
-public class FirstService implements ServiceBase {
+public class FirstService implements ServiceBase<String> {
 
-	public void execute() {
+	public String execute() {
 		// TODO Auto-generated method stub
+		return null;
 		
 	}
 
