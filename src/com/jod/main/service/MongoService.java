@@ -1,9 +1,11 @@
 package com.jod.main.service;
 
-public class MongoService implements ServiceBase<Integer>{
+import java.math.BigDecimal;
+
+public class MongoService implements ServiceBase<BigDecimal>{
 
 	@Override
-	public Integer execute() {
+	public BigDecimal execute() {
 		// TODO Auto-generated method stub
 		return null;
 	}
