@@ -27,4 +27,12 @@ public class FirstService implements ServiceBase<String> {
 	public Set<String> fetchAll(){
 		return null;
 	}
+
+	/**
+		Function to update record
+	**/
+	void update(T entity){
+		// update passed entity
+	}
+
 }
