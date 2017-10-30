@@ -1,5 +1,7 @@
 package com.jod.main.service;
 
+import java.util.Set;
+
 public class FirstService implements ServiceBase<String> {
 
 	public String execute() {
@@ -19,4 +21,10 @@ public class FirstService implements ServiceBase<String> {
  		return null;
  	}
 
+	/**
+		Fetch all added while waiting for the PR to get approve
+	**/
+	public Set<String> fetchAll(){
+		return null;
+	}
 }
