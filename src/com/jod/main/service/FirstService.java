@@ -1,5 +1,7 @@
 package com.jod.main.service;
 
+import java.util.List;
+
 public class FirstService implements ServiceBase<String> {
 
 	public String execute() {
@@ -24,5 +26,12 @@ public class FirstService implements ServiceBase<String> {
 	**/
 	void update(T entity){
 		// update passed entity
+	}
+	
+	/**
+		Fetch all added while waiting for the PR to get approve
+	**/
+	List<String> fetchAll(){
+		return null;
 	}
 }
