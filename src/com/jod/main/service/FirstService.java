@@ -19,4 +19,10 @@ public class FirstService implements ServiceBase<String> {
 		return null;
 	}
 
+	/**
+		Function to update record
+	**/
+	void update(T entity){
+		// update passed entity
+	}
 }
