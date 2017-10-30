@@ -7,5 +7,9 @@ public abstract class BaseSimulatin{
 	public void simulationLogic(){
 		
 	}
+	
+	public <T> List<T> getMe(){
+		return null;
+	}
 
 }

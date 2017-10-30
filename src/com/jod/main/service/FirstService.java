@@ -11,5 +11,12 @@ public class FirstService implements ServiceBase<String> {
 		 */
 		
 	}
+	
+	/**
+ 		Function to handle new feature of team
+ 	**/
+ 	public Double feature(){
+ 		return null;
+ 	}
 
 }
