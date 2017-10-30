@@ -15,7 +15,7 @@ public class FirstService implements ServiceBase<String> {
 	}
 	
 	/**
- 		Function to handle new feature of team
+ 		Function to handle a new feature of team
  	**/
  	public Double feature(){
  		return null;
