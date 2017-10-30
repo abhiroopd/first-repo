@@ -1,6 +1,10 @@
 package com.jod.main.service;
 
+<<<<<<< 35a0b6c1f7109848b9e6f68d1e84edb26b59181b
 import java.util.Set;
+=======
+import java.util.List;
+>>>>>>> Modification while PR in review
 
 public class FirstService implements ServiceBase<String> {
 
@@ -22,17 +26,17 @@ public class FirstService implements ServiceBase<String> {
  	}
 
 	/**
-		Fetch all added while waiting for the PR to get approve
-	**/
-	public Set<String> fetchAll(){
-		return null;
-	}
-
-	/**
 		Function to update record
 	**/
 	void update(T entity){
 		// update passed entity
+	}
+	
+	/**
+		Fetch all added while waiting for the PR to get approve
+	**/
+	List<String> fetchAll(){
+		return null;
 	}
 
 }
